@@ -12,7 +12,7 @@ import com.luv2code.hibernate.demo.entity.InstructorDetail;
 import com.luv2code.hibernate.demo.entity.Review;
 import com.luv2code.hibernate.demo.entity.Student;
 
-public class GetCoursesForMaryDemo {
+public class DeletePacmanCourseDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,12 +24,12 @@ public class GetCoursesForMaryDemo {
 		try {
 			session.beginTransaction();
 
-			int theId = 1;
-			Student tempStudent = session.get(Student.class, theId);
-
-			System.out.println("\nLoaded student: " + tempStudent);
-			System.out.println("Courses: " + tempStudent.getCourses());
-
+			int courseId = 10;
+			Course tempCourse = session.get(Course.class, courseId);
+			
+			System.out.println("Deleting course: " + tempCourse);
+			
+			session.delete(tempCourse);
 
 			session.getTransaction().commit();
 
