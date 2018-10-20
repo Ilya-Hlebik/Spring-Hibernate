@@ -1,7 +1,0 @@
-package com.luv2code.springdemo.mvc.validation;
-
-public @interface CourceCode {
-	public String value() default "LUV";
-	
-	public String message() default "";
-}

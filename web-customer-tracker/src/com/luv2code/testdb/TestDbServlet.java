@@ -1,6 +1,8 @@
 package com.luv2code.testdb;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,10 +20,17 @@ public class TestDbServlet extends HttpServlet {
 		String driver = "com.mysql.jdbc.Driver";
 		
 		try {
+			PrintWriter out = response.getWriter();
 			
+			out.println("Connecting to database: " + jdbcUrl);
+			
+			Class.forName(driver);
+			
+			Connection myConn = DriverManager.getConnection(jdbcUrl, user, pass);
+			out.print("SUCCESS!!!");
 		}
 		catch(Exception exc) {
-			
+			throw new ServletException();
 		}
 	}
 
