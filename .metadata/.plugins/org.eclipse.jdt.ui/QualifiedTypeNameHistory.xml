@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.validation.constraints.Size"/>
-<fullyQualifiedTypeName name="com.luv2code.springdemo.mvc.Customer"/>
-<fullyQualifiedTypeName name="javax.validation.Valid"/>
-<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.WebDataBinder"/>
-<fullyQualifiedTypeName name="org.springframework.beans.propertyeditors.StringTrimmerEditor"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.InitBinder"/>
-<fullyQualifiedTypeName name="javax.validation.constraints.Min"/>
-<fullyQualifiedTypeName name="javax.validation.constraints.Max"/>
-<fullyQualifiedTypeName name="javax.validation.constraints.Pattern"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="javax.validation.Constraint"/>
-<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
 <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
 <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
 <fullyQualifiedTypeName name="javax.validation.Payload"/>
@@ -60,4 +45,19 @@
 <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
 <fullyQualifiedTypeName name="com.luv2code.springdemo.entity.Customer"/>
 <fullyQualifiedTypeName name="org.hibernate.query.Query"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.EnableAspectJAutoProxy"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.luv2code.aopdemo.DemoConfig"/>
+<fullyQualifiedTypeName name="com.luv2code.aopdemo.dao.AccountDAO"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="com.luv2code.aopdemo.dao.MembershipDAO"/>
+<fullyQualifiedTypeName name="com.luv2code.aopdemo.Account"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="org.springframework.util.StringUtils"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 </qualifiedTypeNameHistroy>
