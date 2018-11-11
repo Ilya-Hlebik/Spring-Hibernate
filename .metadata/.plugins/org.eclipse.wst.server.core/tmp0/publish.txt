@@ -1,6 +1,6 @@
 #Tomcat publish data
-#Sun Oct 21 01:22:33 MSK 2018
-org.eclipse.jst.jee.server\:/binary\:/opt/soft/study/Spring/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-web-5.0.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.0.9.RELEASE-sources.jar
+#Sun Nov 11 21:25:39 MSK 2018
+org.eclipse.jst.jee.server\:/binary\:/opt/soft/study/Spring/workspace/web-customer-tracker-aop/WebContent/WEB-INF/lib/spring-web-5.0.9.RELEASE.jar=WEB-INF/lib/spring-web-5.0.9.RELEASE.jar
 org.eclipse.jst.jee.server\:/binary\:/opt/soft/study/Spring/workspace/web-customer-tracker/WebContent/WEB-INF/lib/spring-web-5.0.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.0.9.RELEASE-sources.jar
 org.eclipse.jst.jee.server\:/binary\:/opt/soft/study/Spring/workspace/web-customer-tracker/WebContent/WEB-INF/lib/spring-web-5.0.9.RELEASE.jar=WEB-INF/lib/spring-web-5.0.9.RELEASE.jar
-org.eclipse.jst.jee.server\:/binary\:/opt/soft/study/Spring/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-web-5.0.9.RELEASE.jar=WEB-INF/lib/spring-web-5.0.9.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:/opt/soft/study/Spring/workspace/web-customer-tracker-aop/WebContent/WEB-INF/lib/spring-web-5.0.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.0.9.RELEASE-sources.jar

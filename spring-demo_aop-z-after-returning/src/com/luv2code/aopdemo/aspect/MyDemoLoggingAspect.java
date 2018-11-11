@@ -1,6 +1,9 @@
 package com.luv2code.aopdemo.aspect;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -22,6 +25,15 @@ public class MyDemoLoggingAspect {
 		String method = theJoinPoint.getSignature().toShortString();
 		System.out.println("\n====>>> Executing @AfterReturning on method: " + method);
 		System.out.println("\n====>>> result is: " + result);
+		convertAccountNamesToUpperCase(result);
+		System.out.println("\n====>>> result is: " + result);
+	}
+
+	private void convertAccountNamesToUpperCase(List<Account> result) {
+		result.forEach(tempAccount ->{
+			String theUpperName = tempAccount.getName().toUpperCase();
+			tempAccount.setName(theUpperName);
+		});
 	}
 
 	@Before("com.luv2code.aopdemo.aspect.LuvAopExpresi.forDaoPackageNoGetterSetter()")
