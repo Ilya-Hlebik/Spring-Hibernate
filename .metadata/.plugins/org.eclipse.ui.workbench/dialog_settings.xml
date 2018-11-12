@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="896" key="dialogHeight"/>
-		<item value="1059" key="dialogWidth"/>
+		<item value="872" key="dialogHeight"/>
+		<item value="1035" key="dialogWidth"/>
 		<list key="textEntries">
 			<item value="1"/>
 			<item value="1"/>
-			<item value="3"/>
+			<item value="2"/>
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
 			<item value="org.eclipse.ui.browser.view"/>
-			<item value="org.eclipse.wst.server.ui.ServersView"/>
+			<item value="org.eclipse.jst.ws.jaxws.ui.views.AnnotationsView"/>
 			<item value="org.eclipse.ui.console.ConsoleView"/>
+			<item value="org.eclipse.wst.server.ui.ServersView"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
 			<item value="browser"/>
-			<item value="server"/>
-			<item value="cons"/>
+			<item value="b"/>
 			<item value="con"/>
 			<item value="c"/>
+			<item value="server"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
