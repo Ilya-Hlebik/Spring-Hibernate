@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="872" key="dialogHeight"/>
-		<item value="1035" key="dialogWidth"/>
+		<item value="860" key="dialogHeight"/>
+		<item value="1023" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
 			<item value="2"/>
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.tm.terminal.view.ui.TerminalsView"/>
 			<item value="org.eclipse.ui.browser.view"/>
 			<item value="org.eclipse.jst.ws.jaxws.ui.views.AnnotationsView"/>
 			<item value="org.eclipse.ui.console.ConsoleView"/>
@@ -20,8 +22,10 @@
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
+			<item value="termin"/>
 			<item value="browser"/>
 			<item value="b"/>
 			<item value="con"/>
@@ -41,5 +45,11 @@
 		<item value="622" key="DIALOG_HEIGHT"/>
 		<item value="268" key="DIALOG_X_ORIGIN"/>
 		<item value="65" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.m2e.core.wizards.Maven2ImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.m2e"/>
+		</list>
 	</section>
 </section>
