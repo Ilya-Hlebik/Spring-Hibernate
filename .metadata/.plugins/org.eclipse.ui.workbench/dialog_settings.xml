@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="860" key="dialogHeight"/>
-		<item value="1023" key="dialogWidth"/>
+		<item value="854" key="dialogHeight"/>
+		<item value="1017" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
+			<item value="2"/>
 			<item value="1"/>
 			<item value="1"/>
 			<item value="2"/>
@@ -26,6 +26,7 @@
 		</list>
 		<list key="textArray">
 			<item value="termin"/>
+			<item value="ter"/>
 			<item value="browser"/>
 			<item value="b"/>
 			<item value="con"/>
